@@ -60,7 +60,8 @@ class BlockscoutClient:
         EthereumNetwork.ARBITRUM_GOERLI: "https://goerli-rollup-explorer.arbitrum.io",
         EthereumNetwork.CROSSBELL: "https://scan.crossbell.io",
         EthereumNetwork.TANENBAUM: "https://tanenbaum.io",
-        EthereumNetwork.SYSCOIN: "https://explorer.syscoin.org",
+        EthereumNetwork.SYSCOIN_MAINNET: "https://explorer.syscoin.org",
+        EthereumNetwork.SYSCOIN_TANENBAUM_TESTNET: "https://explorer.syscoin.org",
         EthereumNetwork.ROLLUX_TESTNET: "https://rollux.tanenbaum.io",
     }
 

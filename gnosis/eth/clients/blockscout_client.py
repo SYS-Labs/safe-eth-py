@@ -64,7 +64,7 @@ class BlockscoutClient:
         EthereumNetwork.SYSCOIN_TANENBAUM_TESTNET: "https://tanenbaum.io",
         EthereumNetwork.SYSCOIN_MAINNET: "https://explorer.syscoin.org",
         EthereumNetwork.ROLLUX_TESTNET: "https://rollux.tanenbaum.io",
-        # ~ EthereumNetwork.ROLLUX_MAINNET: "UNDISCLOSED",
+        EthereumNetwork.ROLLUX_MAINNET: "https://explorer.rollux.com",
     }
 
     def __init__(self, network: EthereumNetwork):

@@ -442,25 +442,6 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
         ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 6333171, "1.3.0+L2"),
         ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 6333172, "1.3.0"),
     ],
-<<<<<<< HEAD
-    EthereumNetwork.SYSCOIN_TANENBAUM_TESTNET: [
-        ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 263496, "1.3.0+L2"),
-        ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 263497, "1.3.0"),
-    ],
-    EthereumNetwork.SYSCOIN_MAINNET: [
-        ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 286747, "1.3.0+L2"),
-        ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 286752, "1.3.0"),
-    ],
-    EthereumNetwork.ROLLUX_TESTNET: [
-        ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 851007, "1.3.0+L2"),
-        ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 851012, "1.3.0"),
-    ],
-    EthereumNetwork.ROLLUX_MAINNET: [
-        ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 122949, "1.3.0+L2"),
-        ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 122956, "1.3.0"),
-    ],
-||||||| eb191ac
-=======
     EthereumNetwork.SEPOLIA: [
         (
             "0x3E5c63644E683549055b9Be8653de26E0B4CD36E",
@@ -483,7 +464,22 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
             "1.3.0",
         ),  # Safe singleton address
     ],
->>>>>>> safe/master
+    EthereumNetwork.SYSCOIN_TANENBAUM_TESTNET: [
+        ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 263496, "1.3.0+L2"),
+        ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 263497, "1.3.0"),
+    ],
+    EthereumNetwork.SYSCOIN_MAINNET: [
+        ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 286747, "1.3.0+L2"),
+        ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 286752, "1.3.0"),
+    ],
+    EthereumNetwork.ROLLUX_TESTNET: [
+        ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 851007, "1.3.0+L2"),
+        ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 851012, "1.3.0"),
+    ],
+    EthereumNetwork.ROLLUX_MAINNET: [
+        ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 122949, "1.3.0+L2"),
+        ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 122956, "1.3.0"),
+    ],
 }
 
 PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {

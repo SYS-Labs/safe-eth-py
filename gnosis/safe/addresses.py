@@ -188,8 +188,11 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
             "0x3E5c63644E683549055b9Be8653de26E0B4CD36E",
             22_123_383,
             "1.3.0+L2",
-        )(  # default singleton address
-            "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 4_949_507, "1.3.0+L2"
+        ),  # default singleton address
+        (
+            "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA",
+            4_949_507,
+            "1.3.0+L2",
         ),  # safe singleton address
         (
             "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
@@ -439,6 +442,7 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
         ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 6333171, "1.3.0+L2"),
         ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 6333172, "1.3.0"),
     ],
+<<<<<<< HEAD
     EthereumNetwork.SYSCOIN_TANENBAUM_TESTNET: [
         ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 263496, "1.3.0+L2"),
         ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 263497, "1.3.0"),
@@ -455,6 +459,31 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
         ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 122949, "1.3.0+L2"),
         ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 122956, "1.3.0"),
     ],
+||||||| eb191ac
+=======
+    EthereumNetwork.SEPOLIA: [
+        (
+            "0x3E5c63644E683549055b9Be8653de26E0B4CD36E",
+            2086878,
+            "1.3.0+L2",
+        ),  # Default singleton address
+        (
+            "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA",
+            2087039,
+            "1.3.0+L2",
+        ),  # Safe singleton address
+        (
+            "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+            2086880,
+            "1.3.0",
+        ),  # Default singleton address
+        (
+            "0x69f4D1788e39c87893C980c06EdF4b7f686e2938",
+            2087040,
+            "1.3.0",
+        ),  # Safe singleton address
+    ],
+>>>>>>> safe/master
 }
 
 PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
@@ -566,10 +595,12 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     ],
     EthereumNetwork.AVALANCHE_C_CHAIN: [
         (
-            " 0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+            "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
             14_747_108,
-        )(  # v1.3.0 default singleton address
-            "0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC", 4_949_487
+        ),  # v1.3.0 default singleton address
+        (
+            "0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC",
+            4_949_487,
         ),  # v1.3.0 safe singleton address
     ],
     EthereumNetwork.MOONBEAM: [
@@ -747,6 +778,16 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     ],
     EthereumNetwork.ETHEREUM_CLASSIC_TESTNET_MORDOR: [
         ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 6333172),  # v1.3.0
+    ],
+    EthereumNetwork.SEPOLIA: [
+        (
+            "0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC",
+            2087031,
+        ),  # v1.3.0  Safe singleton address
+        (
+            "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
+            2086864,
+        ),  # v1.3.0  Default singleton address
     ],
     EthereumNetwork.SYSCOIN_TANENBAUM_TESTNET: [
         ("0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC", 263484),  # v1.3.0

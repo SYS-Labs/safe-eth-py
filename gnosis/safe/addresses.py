@@ -477,8 +477,8 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
         ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 851012, "1.3.0"),
     ],
     EthereumNetwork.ROLLUX_MAINNET: [
-        ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 122949, "1.3.0+L2"),
-        ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 122956, "1.3.0"),
+        ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 102296, "1.3.0+L2"),
+        ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 102303, "1.3.0"),
     ],
 }
 
